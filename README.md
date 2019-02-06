@@ -3,7 +3,7 @@ This project implements a prediction market decentralized application on the Eth
 
 # Setup
 - yarn v1.13.0
-- node v8.12.0 <b> - use this version!</b>
+- node v8.12.0 (seems like latest stable 10+) works too
 - ganache-cli v6.2.5
 - Google Chrome (tested with v71)
 - MetaMask Chrome Extension (tested with v5.3.1)
@@ -70,6 +70,14 @@ This project implements a prediction market decentralized application on the Eth
 ### <b>Use a library or extend a contract</b>
 - SafeMath - library from OpenZeppelin
 - ERC20 - WagerToken.sol extends Standard ERC20 token contract from OpenZeppelin
+
+# Stretch Goals
+- No IPFS
+- Uses upgradable design pattern - Hub and Spoke Topology Design, new contract addresses can be swapped in PredictionMarket.sol and Wager/Oracle contract can be upgraded independently. (https://medium.com/rocket-pool/upgradable-solidity-contract-design-54789205276d)
+- No contracts in Vyper or LLL
+- No uPort
+- No Ethereum Name Service
+- No Oracle service
 
 # Smart Contracts
 ### PredictionMarket.sol
