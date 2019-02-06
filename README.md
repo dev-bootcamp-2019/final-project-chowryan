@@ -3,7 +3,7 @@ This project implements a prediction market decentralized application on the Eth
 
 # Setup
 - yarn v1.13.0
-- node v8.12.0 (seems like latest stable 10+) works too
+- node v8.12.0 (seems like latest stable 10+ works too)
 - ganache-cli v6.2.5
 - Google Chrome (tested with v71)
 - MetaMask Chrome Extension (tested with v5.3.1)
